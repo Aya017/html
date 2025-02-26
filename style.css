@@ -1,0 +1,65 @@
+*{margin: 0;
+    padding: 0;
+    
+}
+#header{
+    height: 100vh;
+    background-image: url ('aya.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: arial;
+
+    
+}
+header{
+     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav {
+    display: flex;
+   flex: 1 1 600px;
+    justify-content: flex-end;
+   margin-right: 40px;
+    align-items: center;
+}
+header nav a {
+       padding: 10px 20px;
+       text-decoration: none;
+       color: white;
+       font-weight: 800;
+       font-size: small;
+}
+header .logo {
+    width: 150px;
+    height: 150px;
+    flex: 0 1 150px ;
+}  
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.main h1 {
+    font-size:4em;
+    padding-bottom: 50px;
+    
+}
+.main h2{
+    
+
+    font-weight: 400;
+
+    padding-bottom: 30px;
+}
+
+body{
+    background-color: brown;
+}
